@@ -18,7 +18,7 @@ export default {
         'productnameSize': '20px',
         'paragraphtextSize': '16px',
         'buttontextSize': '14px',
-        
+
       },
       colors: {
         'primaryColor': '#262626',
@@ -30,6 +30,7 @@ export default {
         'ad1': "url('./assets/ad1.png')",
         'ad2': "url('./assets/ad2.png')",
         'ad3': "url('./assets/ad3.png')",
+        // 'ads-2': "url('./assets/ads-2.png')",
         // 'newproduct1': "url('./assets/newproduct1.png')",
       }
     },

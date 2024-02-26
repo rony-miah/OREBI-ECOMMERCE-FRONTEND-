@@ -1,19 +1,19 @@
 import React from 'react';
-import bestproduct1 from '../../assets/bestproduct1.png';
-import bestproduct2 from '../../assets/bestproduct2.png';
-import bestproduct3 from '../../assets/bestproduct3.png';
-import bestproduct4 from '../../assets/bestproduct4.png';
+import specialproduct1 from '../../assets/specialproduct1.png';
+import specialproduct2 from '../../assets/specialproduct2.png';
+import specialproduct3 from '../../assets/specialproduct3.png';
+import specialproduct4 from '../../assets/specialproduct4.png';
 
-const OurBestsellers = () => {
+const SpecialOffers = () => {
     return (
         <>
             <div className='bg-white'>
-                <div className='max-w-container mx-auto mt-[118px]'>
-                    <h2 className='font-DmSans text-primaryColor text-heading2textSize font-bold mb-[48px]'>Our Bestsellers</h2>
+                <div className='max-w-container mx-auto mt-[128px]'>
+                    <h2 className='font-DmSans text-primaryColor text-heading2textSize font-bold mb-[48px]'>Special Offers</h2>
                     <div className='flex gap-x-10'>
                         <div className='w-1/4'>
                             <div className='relative z-100'>
-                                <img className="" src={bestproduct1} alt="" />
+                                <img className="" src={specialproduct1} alt="" />
                                 <div className='w-[92px] font-DmSans text-white text-buttontextSize font-bold bg-primaryColor px-8 py-2 absolute top-5 left-5'>New</div>
                             </div>
                             <div className='flex justify-between mt-[18px] mb-[15px]'>
@@ -24,7 +24,7 @@ const OurBestsellers = () => {
                         </div>
                         <div className='w-1/4'>
                             <div className='relative'>
-                                <img className='w-full' src={bestproduct2} alt="" />
+                                <img className='w-full' src={specialproduct2} alt="" />
                                 <div className='w-[92px] font-DmSans text-white text-buttontextSize font-bold bg-primaryColor px-8 py-2 absolute top-5 left-5'>New</div>
                             </div>
                             <div className='flex justify-between mt-[18px] mb-[15px]'>
@@ -35,7 +35,7 @@ const OurBestsellers = () => {
                         </div>
                         <div className='w-1/4'>
                             <div className='relative'>
-                                <img className='w-full' src={bestproduct3} alt="" />
+                                <img className='w-full' src={specialproduct3} alt="" />
                                 <div className='w-[92px] font-DmSans text-white text-buttontextSize font-bold bg-primaryColor px-8 py-2 absolute top-5 left-5'>New</div>
                             </div>
                             <div className='flex justify-between mt-[18px] mb-[15px]'>
@@ -46,7 +46,7 @@ const OurBestsellers = () => {
                         </div>
                         <div className='w-1/4'>
                             <div className='relative'>
-                                <img className='w-full' src={bestproduct4} alt="" />
+                                <img className='w-full' src={specialproduct4} alt="" />
                                 <div className='w-[92px] font-DmSans text-white text-buttontextSize font-bold bg-primaryColor px-8 py-2 absolute top-5 left-5'>New</div>
                             </div>
                             <div className='flex justify-between mt-[18px] mb-[15px]'>
@@ -62,4 +62,4 @@ const OurBestsellers = () => {
     )
 }
 
-export default OurBestsellers
+export default SpecialOffers
